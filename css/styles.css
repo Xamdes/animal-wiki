@@ -1,0 +1,17 @@
+body {
+  background-color: lightcyan;
+  font-size: 1.5em;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.initial-hide {
+  display: none;
+}
+
+img {
+  height: auto;
+  width: 360px;
+}

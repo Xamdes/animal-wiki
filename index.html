@@ -8,7 +8,36 @@
     <script src="js/scripts.js"></script>
     <title>Animal Wiki</title>
   </head>
-  <body>
-
+  <body class="container-fluid">
+    <div class="center-text">
+      <h1 class="jumbotron">Animal Wiki</h1>
+      <p>Please select an animal you would like to learn about.</p>
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-2">
+          <select class="form-control" id="animals">
+            <option value="0">None</option>
+            <option value="1">Polarbear</option>
+            <option value="2">Penguin</option>
+          </select>
+        </div>
+        <div class="col-md-1">
+          <button class="btn" id="btn-submit">Submit</button>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+      <div id="polarbear" class="initial-hide">
+        <h2>Polarbear</h2>
+        <img src="img/polarbear.jpg" alt="A polarbear.">
+        <p>The polar bear (Ursus maritimus) is a hypercarnivorous bear whose native range lies largely within the Arctic Circle, encompassing the Arctic Ocean, its surrounding seas and surrounding land masses. It is a large bear, approximately the same size as the omnivorous Kodiak bear (Ursus arctos middendorffi).[5] A boar (adult male) weighs around 350–700 kg (772–1,543 lb),[6] while a sow (adult female) is about half that size. Although it is the sister species of the brown bear,[7] it has evolved to occupy a narrower ecological niche, with many body characteristics adapted for cold temperatures, for moving across snow, ice and open water, and for hunting seals, which make up most of its diet.[8] Although most polar bears are born on land, they spend most of their time on the sea ice. Their scientific name means "maritime bear" and derives from this fact. Polar bears hunt their preferred food of seals from the edge of sea ice, often living off fat reserves when no sea ice is present. Because of their dependence on the sea ice, polar bears are classified as marine mammals</p>
+      </div>
+      <div id="penguin" class="initial-hide">
+        <h2>Penguin</h2>
+        <img src="img/penguin.jpg" alt="A penguin.">
+        <p>Penguins (order Sphenisciformes, family Spheniscidae) are a group of aquatic, flightless birds. They live almost exclusively in the Southern Hemisphere, with only one species, the Galapagos penguin, found north of the equator. Highly adapted for life in the water, penguins have countershaded dark and white plumage, and their wings have evolved into flippers. Most penguins feed on krill, fish, squid and other forms of sea life caught while swimming underwater. They spend about half of their lives on land and half in the oceans.</p>
+      </div>
+    </div>
   </body>
 </html>
